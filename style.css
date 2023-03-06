@@ -48,6 +48,7 @@ body {
   }
   .mdiv h1{
       text-align:center;
+      color: #dddddd;
   }
   
   .mdiv2{
@@ -118,8 +119,8 @@ body {
     white-space: nowrap;
     will-change: box-shadow,transform;
     font-size: 18px;
-    margin-right:10px;
-    margin-left:10px;
+    margin-right:5px;
+    margin-left:5px;
   }
   
   .tbtn:focus {
