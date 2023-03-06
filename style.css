@@ -1,0 +1,259 @@
+/* body {
+    background-color:#7777AA;
+}*/
+body {
+    margin: auto;
+    /*width: 640px;*/
+    padding: 5px;
+    font-family: 'Lexend Deca', sans-serif; 
+    color:#2E475D;
+    background-color:#555588;
+  }
+  
+  
+  * { -webkit-tap-highlight-color: transparent; }
+  
+  
+  
+  nav{
+      background-color: lightblue;
+      opacity:90%;
+      
+      display:flex;
+      
+      height: 70px;
+      
+      justify-content:center;
+      align-items:center ;
+      border-radius:5px;
+      margin-top:10px;
+      
+  }
+  
+  .mdiv{
+      
+      color:#ffffff;
+      text-align:left;
+      font-size:10;
+      
+      background-color:#8888bb;
+      height:980px;
+      border-radius:5px;
+      
+      padding-top:10px;
+      padding-left:10px;
+      padding-right:10px;
+      margin-top:10px;
+  }
+  .mdiv h1{
+      text-align:center;
+  }
+  
+  .mdiv2{
+      /*font-size:12px;*/
+      background-color:#7777aa;
+      height:300px;
+      border-color:#000000;
+      padding-left:10px;
+      padding-top:10px;
+      padding-right:10px;
+      border-radius:5px;
+      margin-top:10px;
+  }
+  
+  
+  .ediv{
+      display:flex;
+      
+      color:#bbbbbb;
+      text-align: left center;
+      margin-top:10px;
+      font-size:20;
+      
+      
+      justify-content:left ;
+      align-items:center;
+      
+      background-color:#666699;
+      height:40px;
+      border-radius:5px;
+      
+      margin-top:10px;
+      margin-bottom:10px;
+      padding-left:10px;
+      
+  }
+  
+  
+  
+  /* CSS */
+  .tbtn {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    width: 90px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    margin-right:10px;
+    margin-left:10px;
+  }
+  
+  .tbtn:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  .tbtn:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    /*transform: translateY(-2px);*/
+  }
+  
+  .tbtn:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  
+  
+  
+  /* CSS */
+  .sbtn {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+
+    margin-left: 20px;
+
+  }
+  
+  .sbtn:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .sbtn:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    /*transform: translateY(-2px);*/
+  }
+  
+  .sbtn:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  
+  
+  /* Side div 
+  
+  .sdiv{
+      z-index:1;
+      
+      font-size:12px;
+      background-color:#7777aa;
+      height:300px;
+      border-color:#000000;
+      padding-left:10px;
+      padding-top:10px;
+      padding-right:10px;
+      border-radius:5px;
+      margin-top:10px;
+      
+      position:absolute ;
+  }
+  */
+  
+  /* The sidebar menu */
+  .sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position:fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  /*#main {
+    transition: margin-right .5s; If you want a transition effect 
+    padding: 20px;
+  }*/
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  /*@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  */
