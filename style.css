@@ -2,8 +2,9 @@
     background-color:#7777AA;
 }*/
 body {
+    
     margin: auto;
-    /*width: 640px;*/
+    width: 500px;
     padding: 5px;
     font-family: 'Lexend Deca', sans-serif; 
     color:#2E475D;
@@ -244,16 +245,15 @@ body {
     margin-left: 50px;
   }
   
-
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+/*Style page content - use this if you want to push the page content to the right when you open the side navigation */
   /*#main {
     transition: margin-right .5s; If you want a transition effect 
     padding: 20px;
   }*/
   
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  /*On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   /*@media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
-  }
-  */
+  }*/
+  
